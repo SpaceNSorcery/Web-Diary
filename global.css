@@ -1,0 +1,97 @@
+body {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: navajowhite;
+  text-decoration: none;
+}
+
+.heading {
+  color: navajowhite;
+  font-weight: 300;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+p {
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+.mainContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.date {
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: large;
+}
+
+.headingContainer {
+  text-align: center;
+  padding: 35px;
+}
+
+#addRecordForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.titleInput,
+.contentArea,
+.datePicker,
+.submitBtn {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.submitBtn {
+  background-color: goldenrod;
+  color: #333333;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* delete button */
+.Btn {
+  background-color: goldenrod;
+  color: #333333;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.linkSect {
+  text-align: center;
+  margin: 28px 0;
+}
+
+.notFound {
+  text-align: center;
+}
