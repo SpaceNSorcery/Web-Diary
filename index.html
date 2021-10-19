@@ -9,8 +9,40 @@
 
 <body>
     <header class="headingContainer">
-        <h1 class="heading">- Web_Diary -</h1>
+        <h1 class="heading">- Web Diary -</h1>
     </header>
+    
+    
+    <script type="text/javascript">
+      
+        var r_text = new Array ();
+        r_text[0] = "'Tell me your deepest and darkest desires..'";
+        r_text[1] = "'Any lucid dreams lately?'";
+        r_text[2] = "'Hey, hows it going fam? Hope all's been well.'";
+        r_text[3] = "'やりたくないこと、やってる暇はねえ'";
+        r_text[4] = "'Dear diary..'";
+        r_text[5] = "'Confessions of a sleep deprived sorcerer.'";
+        r_text[6] = "'The soul becomes dyed with the color of its thoughts.' ~ Marcus Aurelius";
+        r_text[7] = "'The hardest part is over..'";
+        r_text[8] = "'Are we in our happy place?'";
+        r_text[9] = "'What's wrong with her now!?'";
+        r_text[10] = "'!!!ヘブンズ ドアー!!!'";
+        r_text[11] = "'Winds Howlin..'";
+        r_text[12] = "'Rrrroll Initiative!'";
+        r_text[13] = "'QUICK- CHECK FOR SPIDERS!!'";
+        r_text[14] = "'Delete that bro. Right now..'";
+        r_text[15] = "'Oh the memories..'";
+        r_text[16] = "'Stay hydrated. Get some rest. Meditate. Take care of yourself.'";
+        r_text[17] = "'EVERYBODY G-G-G-G-G-G-GIT DOWN!'";
+        r_text[18] = "'今日はどうでしたか？'";
+        r_text[19] = "'神さま、助けてくれ!!'";
+        r_text[20] = "'Everyone has a dark secret..'";
+        var i = Math.floor(21*Math.random())
+
+        document.write('<span class="mineWords" style="color: rgb(94, 241, 210); font-weight: bold;">' + r_text[i] + '</span>');
+    
+    </script>
+
     <main>
         <form id="addRecordForm">
             <input class="titleInput" type="text" placeholder="Enter the title here.."/>
