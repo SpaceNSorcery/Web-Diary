@@ -1,0 +1,193 @@
+.letter-grid {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.letter-grid span {
+  background-color: transparent;
+  color: navajowhite;
+  display: block;
+  float: left;
+  font-size: 10px;
+  opacity: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: background-color .75s, color .75s, opacity .75s, transform .5s;
+  user-select: none;
+  visibility: hidden;
+  width: 10px;
+  height: 10px;
+}
+
+.letter-grid span:hover {
+  background-color: purple;
+  color: white;
+  cursor: default;
+}
+
+.letter-grid span:nth-child(5n+1) {
+  color: purple;
+  font-weight: bold;
+  transform: rotate(45deg);
+}
+
+.letter-grid span:nth-child(10n+1) {
+  transform: rotate(-45deg);
+}
+
+.letter-grid span:nth-child(5n+1):hover {
+  color: white;
+}
+
+.js-show-letters span {
+  opacity: 1;
+  visibility: visible;
+}
+
+ul {
+  border-style: ridge;
+  background: #222;
+  color: #fff;
+  align-content: center;
+  text-align: center;
+  float: none;
+  display: inline-flexbox;
+  padding: 5px 10px;
+}
+
+body {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+a {
+  color: navajowhite;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mineWords {
+  border-style: ridge;
+  background: #222;
+  color: #fff;
+  align-content: center;
+  text-align: center;
+  float: none;
+  display: inline-flexbox;
+  padding: 5px 10px;
+}
+
+.heading {
+  color: navajowhite;
+  font-weight: 300;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+p {
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+span {
+  display: table;
+  margin: 10px auto;
+}
+
+.mainContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.date {
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: large;
+}
+
+.headingContainer {
+  text-align: center;
+  padding: 35px;
+  border-style: ridge;
+  background: #222;
+  color: #fff;
+  align-content: center;
+  text-align: center;
+  float: none;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 5px;
+  margin-top: 15px;
+}
+
+#addRecordForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.titleInput,
+.contentArea,
+.datePicker,
+.submitBtn {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.submitBtn {
+  background-color: purple;
+  color: navajowhite;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* delete button */
+.Btn {
+  color: #333333;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.linkSect {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  background-color: purple;
+  color: #333333;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.notFound {
+  text-align: center;
+}

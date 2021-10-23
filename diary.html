@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Diary Records</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
 </head>
+
 <body>
     <header class="headingContainer">
         <h1 class="heading">Diary Records</h1>
     </header> 
+    <br>
     <main class="mainContainer">
-        <section class="linkSect">
+        <button class="linkSect">
             <a href="index.html">Add New Diary Entry</a>
-        </section>
+        </button>
+         <br>
         <ul id="recordList"></ul>
-        <section class="linkSect">
+        <br>
+        <button class="linkSect">
             <a href="index.html">Add New Diary Entry</a>
-        </section>
+        </button>
     </main>
     <script src="diary.js"></script>
+    <!-- partial:index.partial.html -->
+<div class="letter-grid"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js'></script><script  src="./script.js"></script>
 </body>
 </html>
