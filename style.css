@@ -11,7 +11,7 @@
 
 .letter-grid span {
   background-color: transparent;
-  color: navajowhite;
+  color: gray;
   display: block;
   float: left;
   font-size: 10px;
@@ -68,7 +68,7 @@ body {
 }
 
 a {
-  color: navajowhite;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -90,10 +90,11 @@ h1 {
   float: none;
   display: inline-flexbox;
   padding: 5px 10px;
+  font-family: sans-serif;
 }
 
 .heading {
-  color: navajowhite;
+  color: #ffffff;
   font-weight: 300;
   margin: 10px 0;
   padding-left: 10px;
@@ -159,7 +160,7 @@ span {
 
 .submitBtn {
   background-color: purple;
-  color: navajowhite;
+  color: #ffffff;
   border-style: none;
   padding: 10px;
   border-radius: 10px;
